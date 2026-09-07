@@ -196,6 +196,7 @@ button, input, textarea { font: inherit; }
   font-size: 15px;
 }
 .hero-actions, .contact-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 32px; }
+.contact-email { margin-top: 16px; font: 600 14px "JetBrains Mono", monospace; color: var(--muted-2); }
 .btn {
   min-height: 47px;
   padding: 0 20px;
@@ -341,6 +342,7 @@ html[data-theme="light"] .cloud-console {
   width: 48px; height: 48px; display: grid; place-items: center;
   border-radius: 14px; font-size: 19px; margin-bottom: 24px;
 }
+.expertise-icon img { width: 24px; height: 24px; object-fit: contain; }
 .icon-blue { color: var(--blue); background: rgba(77,159,255,.09); border: 1px solid rgba(77,159,255,.2); }
 .icon-violet { color: var(--violet); background: rgba(77,159,255,.09); border: 1px solid rgba(77,159,255,.2); }
 .icon-teal { color: var(--teal); background: rgba(77,159,255,.09); border: 1px solid rgba(77,159,255,.2); }
